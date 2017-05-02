@@ -3,7 +3,7 @@ You should use ZMAP to scan the IPs which open redis port(6379) and save the IPs
 check login for unauthorized redis
 
 
-#Step1   scan the IPs open port 6379
+#Step1   scan the IPs open port 6379 with zmap
 
 zmap   xxx.xx.xxx.0/24 -p 6379 -o ip.txt
 
